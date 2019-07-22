@@ -14,7 +14,7 @@ fn main() {
 
     let mut mount = Mount::new();
 
-    mount.mount("/", Static::new(Path::new("../static/index.html")));
+    mount.mount("/", Static::new(Path::new("static/index.html")));
 
     Iron::new(mount).http("localhost:3000").unwrap();
 }
