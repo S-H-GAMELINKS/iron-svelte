@@ -2577,6 +2577,11 @@ svelte-loader@^2.13.5:
     loader-utils "^1.1.0"
     svelte-dev-helper "^1.1.9"
 
+svelte-routing@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/svelte-routing/-/svelte-routing-1.2.1.tgz#7dd1b1847df6a6bd674e3c4b84588e1ce5c189c5"
+  integrity sha512-2lm1EwCy8bXiShW9A6sH38oqbQ8q3sqK7mgXMVTRkGSrTdwnkDHyXVwCKIcCJdWdVcNdjQUFHXbDlaoxQHdd2g==
+
 svelte@^3.6.7:
   version "3.6.7"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.6.7.tgz#20e814b79aac4009d4bc1ecf0c9287a6bf7e96fb"

@@ -2,6 +2,7 @@
   "dependencies": {
     "svelte": "^3.6.7",
     "svelte-loader": "^2.13.5",
+    "svelte-routing": "^1.2.1",
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6"
   }
