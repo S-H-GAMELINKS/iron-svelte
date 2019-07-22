@@ -14,7 +14,11 @@ fn main() {
 
     let mut mount = Mount::new();
 
-    mount.mount("/", Static::new(Path::new("static/index.html")));
+    let routes = &["/", "/about", "/contact"];
+
+    for route in routes {
+        mount.mount(route, Static::new(Path::new("static/index.html")));
+    }
 
     mount.mount("/index.js", Static::new(Path::new("static/index.js")));
 
