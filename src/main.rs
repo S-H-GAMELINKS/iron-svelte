@@ -16,5 +16,7 @@ fn main() {
 
     mount.mount("/", Static::new(Path::new("static/index.html")));
 
+    mount.mount("/index.js", Static::new(Path::new("static/index.js")));
+
     Iron::new(mount).http("localhost:3000").unwrap();
 }
