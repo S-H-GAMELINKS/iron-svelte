@@ -2564,6 +2564,19 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
+svelte-dev-helper@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/svelte-dev-helper/-/svelte-dev-helper-1.1.9.tgz#7d187db5c6cdbbd64d75a32f91b8998bde3273c3"
+  integrity sha1-fRh9tcbNu9ZNdaMvkbiZi94yc8M=
+
+svelte-loader@^2.13.5:
+  version "2.13.5"
+  resolved "https://registry.yarnpkg.com/svelte-loader/-/svelte-loader-2.13.5.tgz#a7a7f1c6c848ac63fac30a015230e19290592b50"
+  integrity sha512-cRPqEsiVc88C5em/u0wUuEsZQSL5Yzfwmq4VaA2LVejMGcJxHL29F25yI9I3pZxek010pN9WMyiuRdyu8M6yRw==
+  dependencies:
+    loader-utils "^1.1.0"
+    svelte-dev-helper "^1.1.9"
+
 svelte@^3.6.7:
   version "3.6.7"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.6.7.tgz#20e814b79aac4009d4bc1ecf0c9287a6bf7e96fb"
