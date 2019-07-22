@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "svelte": "^3.6.7",
     "svelte-loader": "^2.13.5",
